@@ -1,14 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <cmath>
-#include <cstring>
-#include <string>
-#include <cstdlib>
-
-
-using namespace std;    
-
+#include <bits/stdc++.h>
+using namespace std;  
 const int PASSWORD = 123;
 const int INF = numeric_limits<int>::max();
 const int AIRPORTS = 5;
