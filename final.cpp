@@ -1,4 +1,22 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <cmath>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <unordered_set>
+#include <queue>
+#include <stack>
+#include <deque>
+#include <string>
+#include <sstream>
+#include <iomanip>
+#include <climits>
+#include <limits>
+#include <cstring>
+#include <cassert>
+#include <bitset>
 using namespace std;  
 const int PASSWORD = 123;
 const int INF = numeric_limits<int>::max();
@@ -437,7 +455,7 @@ int reservation1()
     char a[20],b[20];
     // Use std::vector for dynamic array of structs
     vector<dataq> s(15); // Note: C code used s[1] to s[14], C++ vector is 0-indexed. Adjusting loop and access.
-    int c,d,i,j;
+    int c,d,i;
 
     // Initialize train data (Indices 1 to 14 as in C)
     // C++ vectors are 0-indexed, so size 15 means indices 0-14.
@@ -617,7 +635,7 @@ int reservation1()
 
 int status()
 {
-    int i,j,k,a,b;
+    int a;
     cout << "\n                                                                           --------------------------------                           \n";
     cout << "\n                                                                                   CHECK PNR STATUS                             \n";
     cout << "\n                                                                           --------------------------------                           \n";
